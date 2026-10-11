@@ -50,9 +50,10 @@ npx serve .
    - ลากโฟลเดอร์ `iyhm-portfolio` อัปโหลดผ่านหน้า Cloudflare Pages Direct Upload
    - ผูกโดเมน `www.iyhm.online` ได้ทันทีแบบฟรี SSL
 
-2. **GitHub Pages (ฟรี):**
-   - สร้าง repository ชื่อ `iyhm-portfolio` หรือ `<username>.github.io`
-   - Push โค้ดชุดนี้ขึ้นไป แล้วเปิดใช้งาน GitHub Pages ใน Settings
+2. **GitHub Pages (pakiyhm.github.io):**
+   - Repository: `https://github.com/pakiyhm/pakiyhm.github.io`
+   - Push to `main` branch: `git push -u origin main`
+   - Live URL: `https://pakiyhm.github.io/`
 
 3. **Vercel / Netlify:**
    - นำเข้า Repo ผ่าน Vercel / Netlify เพื่อเปิดใช้งานทันที
