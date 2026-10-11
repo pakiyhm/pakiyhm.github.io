@@ -1,0 +1,92 @@
+/* Editorial Framer Style for IYHM (Based on User References) */
+
+:root {
+  --font-main: "Inter", "Plus Jakarta Sans", "Prompt", -apple-system, sans-serif;
+  --color-black: #0a0a0a;
+}
+
+body {
+  font-family: var(--font-main);
+  color: var(--color-black);
+  background-color: #ffffff;
+  letter-spacing: -0.015em;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Infinite Marquee Animation (Image 3 Ref) */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-content {
+  display: flex;
+  width: max-content;
+  animation: marquee 32s linear infinite;
+}
+
+.marquee-content:hover {
+  animation-play-state: paused;
+}
+
+/* Editorial Tag */
+.editorial-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 980px;
+  background-color: #ffffff;
+  color: #171717;
+  border: 1px solid #e5e5e5;
+  font-family: "JetBrains Mono", monospace;
+  letter-spacing: -0.02em;
+}
+
+/* Contact Pill (Exact Image 2 Ref) */
+.contact-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 1.15rem;
+  border-radius: 980px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.contact-pill:hover {
+  background-color: #000000;
+  color: #ffffff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.contact-pill:hover span {
+  color: #ffffff !important;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4d4d4;
+  border-radius: 980px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #000000;
+}
