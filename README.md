@@ -51,9 +51,9 @@ npx serve .
    - ผูกโดเมน `www.iyhm.online` ได้ทันทีแบบฟรี SSL
 
 2. **GitHub Pages (pakiyhm.github.io):**
-   - Repository: `https://github.com/pakiyhm-source/pakiyhm.github.io`
+   - Repository: `https://github.com/pakiyhm/pakiyhm.github.io`
    - Push to `main` branch: `git push -u origin main`
-   - Live URL: `https://pakiyhm-source.github.io/pakiyhm.github.io/`
+   - Live URL: `https://pakiyhm.github.io/pakiyhm.github.io/`
 
 3. **Vercel / Netlify:**
    - นำเข้า Repo ผ่าน Vercel / Netlify เพื่อเปิดใช้งานทันที
